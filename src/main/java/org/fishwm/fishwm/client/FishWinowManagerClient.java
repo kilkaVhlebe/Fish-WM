@@ -1,0 +1,2 @@
+public class FishWinowManagerClient {
+}
