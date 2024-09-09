@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "fish-wm",
+  "version": "${version}",
+
+  "name": "Fish Winow Manager",
+  "description": "Mod for manage nealy blocks windows",
+  "authors": [],
+  "contact": {},
+
+  "license": "BSD-3-Clause",
+  "icon": "assets/fish-wm/icon.png",
+
+  "environment": "client",
+  "entrypoints": {},
+
+      "mixins": [
+        "fish-wm.mixins.json"
+      ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+        "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
